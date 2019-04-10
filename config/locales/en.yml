@@ -58,6 +58,4 @@ en:
       <a href="http://rubyonrails.org/">Ruby on Rails</a>.
       This is the sample application for the tutorial.
     </p>'
-  layouts:
-    application:
-page_title: " Ruby on Rails Tutorial Sample App"
+  page_title: " Ruby on Rails Tutorial Sample App"

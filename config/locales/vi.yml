@@ -23,6 +23,4 @@ vi:
         <a href="http://rubyonrails.org/">Ruby on Rails</a>.
         Đây là ứng dụng mẫu cho hướng dẫn.
       </p>'
-  layouts:
-    application:
-page_title: " Sản phẩm mẫu của Ruby On Rails"
+  page_title: " Sản phẩm mẫu của Ruby On Rails"
