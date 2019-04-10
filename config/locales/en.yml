@@ -58,4 +58,11 @@ en:
       <a href="http://rubyonrails.org/">Ruby on Rails</a>.
       This is the sample application for the tutorial.
     </p>'
+    footer:
+      title_link: "News"
+      content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+      link: "http://news.railstutorial.org/"
+    contact:
+      title: "Contact"
   page_title: " Ruby on Rails Tutorial Sample App"
