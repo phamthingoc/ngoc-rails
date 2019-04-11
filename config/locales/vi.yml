@@ -15,12 +15,18 @@ vi:
     about:
       title: "Về chúng tôi"
       content_html: '<p>
-        <a href="https://www.railstutorial.org/">
-        <em>Hướng dẫn về Ruby on Rails</em></a> là một
+        The <a href="https://www.railstutorial.org/"><em>Hướng dẫn về Ruby on Rails</em></a> là một
         <a href="https://www.railstutorial.org/book">bộ sách</a> và
         <a href="http://screencasts.railstutorial.org/">loạt screencast</a>
         để dạy phát triển web với
         <a href="http://rubyonrails.org/">Ruby on Rails</a>.
         Đây là ứng dụng mẫu cho hướng dẫn.
       </p>'
+    footer:
+      title_link: "Tin tức"
+      content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+      link: "http://news.railstutorial.org/"
+    contact:
+      title: "Liên hệ"
   page_title: " Sản phẩm mẫu của Ruby On Rails"
