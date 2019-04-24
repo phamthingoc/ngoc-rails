@@ -1,12 +1,12 @@
 <footer class="footer">
   <small>
-    <%= t "static_pages.footer.content_html" %>
+    <%= t "footer.content_html" %>
   </small>
   <nav>
     <ul>
-      <li><%= link_to t("static_pages.about.title"), "#" %></li>
-      <li><%= link_to t("static_pages.contact.title"), "#" %></li>
-      <li><%= link_to t("static_pages.footer.title_link"), t("static_pages.footer.link") %></li>
+      <li><%= link_to t("footer.about"), about_path %></li>
+      <li><%= link_to t("footer.contact"), contact_path %></li>
+      <li><a href="http://news.railstutorial.org/"><%= t "footer.new" %>></a></li>
     </ul>
   </nav>
 </footer>
