@@ -1,4 +1,4 @@
-<% provide :title, t("users.new.title") %>
+<% provide :title, t("static_pages.users.new.title") %>
 <h1><%= t "users.new.title" %></h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
@@ -17,7 +17,7 @@
       <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation, class: "form-control" %>
 
-      <%= f.submit t ("users.new.create"), class: "btn btn-primary" %>
+      <%= f.submit t ("static_pages.users.new.create"), class: "btn btn-primary" %>
     <% end %>
   </div>
 </div>

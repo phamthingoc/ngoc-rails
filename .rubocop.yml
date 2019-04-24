@@ -19,9 +19,6 @@ AllCops:
     - 'spec/**/*'
     - 'script/rails'
     - 'config/**/*'
-    - 'Rakefile'
-    - 'config.ru'
-    - 'config/*'
 
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
@@ -548,4 +545,4 @@ Rails/ScopeArgs:
 
 Rails/Validation:
   Include:
-- app/models/**/*.rb
+    - app/models/**/*.rb

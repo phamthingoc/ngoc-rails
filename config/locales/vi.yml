@@ -3,6 +3,11 @@ vi:
     home: "Trang chủ"
     help: "Trợ giúp"
     login: "Đăng nhập"
+    user: "Người dùng"
+    profile: "Hồ sơ"
+    setting: "Cài đặt"
+    logout: "Đăng xuất"
+    account: "Account"
   footer:
     content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
                       by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
@@ -20,6 +25,14 @@ vi:
            </h2>'
       signup: "Sign up now!"
       logo: "Rails Logo"
+
+  static_pages:
+    home:
+      title: "Trang chủ"
+      content_html: '</p>Đây là trang chủ của
+        <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a>.
+        </p>'
+
     help:
       title: "Trợ giúp"
       content_html: '</p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
@@ -38,8 +51,7 @@ vi:
         <a href="http://rubyonrails.org/">Ruby on Rails</a>.
         Đây là ứng dụng mẫu cho hướng dẫn.
       </p>'
-
-  users:
+    users:
     new:
       title: "Đăng Ký"
       content: "Đây là trang đăng ký cho người sử dụng mới"
@@ -52,3 +64,9 @@ vi:
     application:
       page_title: " Sản phẩm mẫu của Ruby On Rails"
       name: "App Mẫu"
+sessions:
+    login: "Đăng nhập"
+    new_user: "Người sử dụng mới?"
+    signup: "Đăng nhập ngay!"
+    error: "Email/password không so khớp"
+    success: "Đăng nhập thành công"
