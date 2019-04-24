@@ -4,12 +4,14 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bootstrap-sass", "3.3.7"
+gem "carrierwave"
 gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "faker", "1.7.3"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails", "4.3.1"
 gem "kaminari", "~> 1.1", ">= 1.1.1"
+gem "mini_magick"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.2", ">= 5.2.2.1"
 gem "rails-controller-testing"
@@ -38,4 +40,8 @@ group :test do
   gem "minitest"
   gem "minitest-reporters"
   gem "selenium-webdriver"
+end
+
+group :production do
+  gem "fog", "1.42"
 end

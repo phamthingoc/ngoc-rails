@@ -11,6 +11,8 @@ class User < ApplicationRecord
                        length: {minimum: Settings.user.length_of_password}
   before_save :downcase_email
   has_secure_password
+  has_many :microposts, dependent: :destroy
+  paginates_per Settings.user.per_page
 
   def downcase_email
     email.downcase!
