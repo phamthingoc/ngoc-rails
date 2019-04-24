@@ -1,6 +1,9 @@
-user_valid:
-  max_length_name: 50
-  max_length_email: 255
-  min_length_password: 6
-user_helper:
-  size_gravater: 80
+user:
+  length_of_name: 50
+  length_of_email: 255
+  length_of_password: 6
+  gravatar_size: 80
+  remember_user: 1
+  per_page: 30
+gravatar:
+size: 50
