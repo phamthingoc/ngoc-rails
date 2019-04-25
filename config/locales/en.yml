@@ -1,14 +1,35 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
 en:
-  header:
-    home: "Home"
-    help: "Help"
-    login: "Log in"
-  footer:
-    content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
-    about: "About"
-    contact: "Contact"
-    new: "News"
   static_pages:
     home:
       title: "Home"
@@ -20,6 +41,22 @@ en:
         </h2>'
       signup: "Sign up now!"
       logo: "Rails Logo"
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      user: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
+      account: "Account"
+    footer:
+      content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+      about: "About"
+      contact: "Contact"
+      new: "News"
+    hello: "Hello world"
     help:
       title: "Help"
       content_html: '<p>
@@ -41,16 +78,22 @@ en:
       <a href="http://rubyonrails.org/">Ruby on Rails</a>.
       This is the sample application for the tutorial.
     </p>'
-  users:
-    new:
-      title: "Sign Up"
-      content: "This will be a signup page for new users."
-      create: "Create your account"
-      success_ac: "Welcome to the Sample App!"
-      fail_ac: "Create account don't success"
+    users:
+      new:
+        title: "Sign Up"
+        content: "This will be a signup page for new users."
+        create: "Create your account"
+        success_ac: "Welcome to the Sample App!"
+        fail_ac: "Create account don't success"
     show:
       error: "Don't find user"
-  layouts:
-    application:
-      page_title: "Ruby on Rails Tutorial Sample App"
-      name: "Sample App"
+    layouts:
+      application:
+        page_title: " Ruby on Rails Tutorial Sample App"
+        name: "Sample App"
+    sessions:
+      login: "Log in"
+      new_user: "New user?"
+      signup: "Sign up now!"
+      error: "Invalid email/password combination"
+    success: "Login Successful"

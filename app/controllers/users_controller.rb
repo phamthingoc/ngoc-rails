@@ -7,20 +7,19 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      flash[:success] = t".new.success_ac"
+      log_in @user
+      flash[:success] = t("static_pages.home.welcome")
       redirect_to @user
     else
-      flash[:danger] = t".new.fail_ac"
       render :new
     end
   end
 
   def show
     @user = User.find_by id: params[:id]
-    
     return if @user
     redirect_to root_path
-    flash[:danger] = t".error"
+    flash[:danger] = t("static_pages.users.error_show")
   end
 
   private
