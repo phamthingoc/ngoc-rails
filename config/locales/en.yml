@@ -85,6 +85,9 @@ en:
         create: "Create your account"
         success_ac: "Welcome to the Sample App!"
         fail_ac: "Create account don't success"
+        email: "Email"
+        name: "Name"
+        password: "Password"
     show:
       error: "Don't find user"
     layouts:
