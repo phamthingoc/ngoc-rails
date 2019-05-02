@@ -1,72 +1,67 @@
 vi:
-  header:
-    home: "Trang chủ"
-    help: "Trợ giúp"
-    login: "Đăng nhập"
-    user: "Người dùng"
-    profile: "Hồ sơ"
-    setting: "Cài đặt"
-    logout: "Đăng xuất"
-    account: "Account"
-  footer:
-    content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-                      by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
-    about: "Về chúng tôi"
-    contact: "Liên hệ"
-    new: "Tin tức"
   static_pages:
     home:
       title: "Trang chủ"
       welcome: "Chào mừng bạn đến với Sample App"
       content_html: '<h2>
-           Đây là trang chủ của
-           <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-           sample application.
-           </h2>'
+        Đây là trang chủ của
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application.
+        </h2>'
       signup: "Sign up now!"
       logo: "Rails Logo"
-
-  static_pages:
-    home:
-      title: "Trang chủ"
-      content_html: '</p>Đây là trang chủ của
-        <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a>.
-        </p>'
-
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      user: "Người dùng"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
+      account: "Tài khoản"
+    footer:
+      content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>                    by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      new: "Tin tức"
+    hello: "Hello world"
     help:
       title: "Trợ giúp"
       content_html: '</p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
-        <a href="https://www.railstutorial.org/help">trang trợ giúp Hướng dẫn Rails</a>.
-        Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
-        <a href="https://www.railstutorial.org/book"><em>sách Hướng dẫn về Ruby on Rails</em>
-        book</a>.</p>'
+       <a href="https://www.railstutorial.org/help">trang trợ giúp Hướng dẫn Rails</a>.
+       Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+       <a href="https://www.railstutorial.org/book"><em>sách Hướng dẫn về Ruby on Rails</em>
+       book</a>.</p>'
     about:
       title: "Về chúng tôi"
       content_html: '<p>
-        <a href="https://www.railstutorial.org/">
-        <em>Hướng dẫn về Ruby on Rails</em></a> là một
-        <a href="https://www.railstutorial.org/book">bộ sách</a> và
-        <a href="http://screencasts.railstutorial.org/">loạt screencast</a>
-        để dạy phát triển web với
-        <a href="http://rubyonrails.org/">Ruby on Rails</a>.
-        Đây là ứng dụng mẫu cho hướng dẫn.
-      </p>'
+       <a href="https://www.railstutorial.org/">
+       <em>Hướng dẫn về Ruby on Rails</em></a> là một
+       <a href="https://www.railstutorial.org/book">bộ sách</a> và
+       <a href="http://screencasts.railstutorial.org/">loạt screencast</a>
+       để dạy phát triển web với
+       <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+       Đây là ứng dụng mẫu cho hướng dẫn.
+    </p>'
     users:
-    new:
-      title: "Đăng Ký"
-      content: "Đây là trang đăng ký cho người sử dụng mới"
-      create: "Tạo tài khoản"
-      success_ac: "Chào mừng bạn đến với Sample App!"
-      fail_ac: "Tạo tài khoản không thành công"
+      new:
+        title: "Đăng Ký"
+        content: "Đây là trang đăng ký cho người sử dụng mới"
+        create: "Tạo tài khoản"
+        success_ac: "Chào mừng bạn đến với Sample App!"
+        fail_ac: "Tạo tài khoản không thành công"
+        email: "Email"
+        name: "Tên"
+        password: "Mật khẩu"
     show:
       error: "Không tìm thấy người dùng"
-  layouts:
-    application:
-      page_title: " Sản phẩm mẫu của Ruby On Rails"
-      name: "App Mẫu"
-sessions:
-    login: "Đăng nhập"
-    new_user: "Người sử dụng mới?"
-    signup: "Đăng nhập ngay!"
-    error: "Email/password không so khớp"
+    layouts:
+      application:
+        page_title: " Sản phẩm mẫu của Ruby On Rails"
+        name: "App Mẫu"
+    sessions:
+      login: "Đăng nhập"
+      new_user: "Người sử dụng mới?"
+      signup: "Đăng nhập ngay!"
+      error: "Email/password không so khớp"
     success: "Đăng nhập thành công"

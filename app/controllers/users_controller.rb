@@ -5,7 +5,6 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new user_params
-
     if @user.save
       log_in @user
       flash[:success] = t("static_pages.home.welcome")
@@ -17,9 +16,14 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
+
     return if @user
     redirect_to root_path
     flash[:danger] = t("static_pages.users.error_show")
+  end
+
+  def edit
+    @user = User.find_by id: params[:id]
   end
 
   private
