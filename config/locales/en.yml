@@ -41,6 +41,7 @@ en:
         </h2>'
       signup: "Sign up now!"
       logo: "Rails Logo"
+      micro: "Micropost Feed"
     header:
       home: "Home"
       help: "Help"
@@ -100,3 +101,22 @@ en:
       signup: "Sign up now!"
       error: "Invalid email/password combination"
     success: "Login Successful"
+    microposts:
+      micro:
+        post_ago: "Posted "
+        title: "Microposts"
+        created: "Micropost created!"
+        nocreated: "Don't create micropost"
+        alert: "Maximum file size is 5MB. Please choose a smaller file."
+      controller:
+        delete: "Micropost deleted"
+        size_image_content: "should be less than 5MB"
+        undelete: "failed delete"
+  shared:
+      user_info:
+        view: "view my profile"
+      micro:
+        pla_form: "Compose new micropost..."
+        post: "Post"
+      error:
+        contain: "The form contains"
